@@ -5,7 +5,9 @@ import { AiFillPlusCircle } from 'react-icons/ai'
 const CreateModal = () => {
   return (
     <div>
-        <button className='crudBtn'>Add a task <AiFillPlusCircle className='icon' /></button>
+        <button className='crudBtn'>
+            Add a task <AiFillPlusCircle className='icon' />
+        </button>
     </div>
   )
 }
