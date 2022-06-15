@@ -25,7 +25,8 @@
     border-radius: 8px;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 77%;
+    /* width: 100%; */
+    width: 700px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
