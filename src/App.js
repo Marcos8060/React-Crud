@@ -1,6 +1,7 @@
 import './App.css';
 import CreateModal from './components/CreateModal';
 import EditModal from './components/EditModal';
+import Task from './components/Task';
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
         <div className="col-md-6 text-center">
           <EditModal  />
         </div>
+      </div>
+      <div className="d-flex justify-content-center align-items-center">
+           <Task />
       </div>
     </div>
   );
