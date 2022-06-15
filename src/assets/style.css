@@ -43,3 +43,18 @@ h6{
     color: var(--button);
     font-weight: bolder;
 }
+.addBtn{
+    background: var(--button);
+    width: 100%;
+    border: none;
+    color: white;
+    margin-top: 3vh;
+    height: 30px;
+    border-radius: 4px;
+}
+form > .form-control:focus{
+    box-shadow: none;
+}
+.modalBody{
+    border-radius: 14px;
+}
