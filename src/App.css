@@ -2,4 +2,9 @@
 
 h1{
   font-family: 'Nunito Sans', sans-serif;
+  padding-top: 10vh;
+  color: #4E6085;
+}
+*{
+  background-color: #F1F4FE;
 }
