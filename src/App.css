@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:wght@300;400;800&family=Nunito+Sans:wght@600;700&family=Nunito:wght@600&family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+
+:root{
+  --button: #5B56CB;
+  --background: #F1F4FE;
+}
+
 h1{
   font-family: 'Nunito Sans', sans-serif;
   padding-top: 10vh;
   color: #4E6085;
 }
 *{
-  background-color: #F1F4FE;
+  background-color: var(--background);
 }
