@@ -11,6 +11,8 @@ h1{
   padding-top: 10vh;
   color: #4E6085;
 }
-*{
+.app__body{
   background-color: var(--background);
+  padding-bottom: 29vh;
+  /* height: 100vh; */
 }

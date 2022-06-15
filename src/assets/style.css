@@ -16,3 +16,30 @@
     margin: 4px;
     font-size: 20px;
 }
+.delete{
+    color: var(--button);
+    font-size: 30px;
+}
+.task__card{
+    background: white;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 77%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    cursor: pointer;
+    transform: scale(1, 1);
+    transition: transform 0.5s ease;
+}
+.task__card:hover{
+    transform: scale(1.1,1.1)
+}
+
+h6{
+    color: var(--button);
+    font-weight: bolder;
+}

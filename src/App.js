@@ -5,7 +5,8 @@ import Task from './components/Task';
 
 function App() {
   return (
-    <div className='container'>
+    <div className="app__body">
+      <div className='container'>
       <h1 className='text-decoration-underline text-center'>My Task List</h1>
       <div className='row py-4'>
         <div className="col-md-6 text-center">
@@ -18,6 +19,7 @@ function App() {
       <div className="d-flex justify-content-center align-items-center">
            <Task />
       </div>
+    </div>
     </div>
   );
 }
