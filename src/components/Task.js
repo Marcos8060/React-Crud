@@ -6,6 +6,7 @@ import { GlobalContext } from "../Context/context";
 const Task = () => {
   const { finalData } = GlobalContext();
 
+  
   return (
     <div>
       {finalData.map((data) => (

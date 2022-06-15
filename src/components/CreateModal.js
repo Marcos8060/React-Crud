@@ -3,6 +3,9 @@ import "../assets/style.css";
 import { AiFillPlusCircle } from "react-icons/ai";
 import Modal from "react-bootstrap/Modal";
 import { GlobalContext } from "../Context/context";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 
 const CreateModal = () => {
@@ -32,11 +35,13 @@ const CreateModal = () => {
       setFinalData([...finalData,newTask])
       setUserData({ task:'', description:''})
       setShow(false)
+      toast.success("Your task is added successfully!");
     }
   }
 
   return (
     <>
+     <ToastContainer />
       <button className="crudBtn" onClick={handleShow}>
         Add a task <AiFillPlusCircle className="icon" />
       </button>
