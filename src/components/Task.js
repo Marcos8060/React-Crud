@@ -6,7 +6,14 @@ import { GlobalContext } from "../Context/context";
 const Task = () => {
   const { finalData } = GlobalContext();
 
-  
+  if(finalData.length < 1){
+      return(
+          <div style={{ marginBottom: '10vh'}}>
+              <h1>Your Task bar</h1>
+              <p className="text-center">Is currently empty</p>
+          </div>
+      )
+  }
   return (
     <div>
       {finalData.map((data) => (

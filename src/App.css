@@ -13,5 +13,5 @@ h1{
 }
 .app__body{
   background-color: var(--background);
-  padding-bottom: 29vh;
+  height: 100vh;
 }
