@@ -8,13 +8,8 @@ function App() {
     <div className="app__body">
       <div className='container'>
       <h1 className='text-decoration-underline text-center'>My Task List</h1>
-      <div className='row py-4'>
-        <div className="col-md-6 text-center">
+      <div className='py-4'>
           <CreateModal />
-        </div>
-        <div className="col-md-6 text-center">
-          <EditModal  />
-        </div>
       </div>
       <div className="d-flex justify-content-center align-items-center">
            <Task />
