@@ -9,6 +9,7 @@
     border-radius: 4px;
     width: 140px;
     margin: 3px;
+    height: 44px;
 
 }
 .icon{
@@ -18,26 +19,23 @@
 }
 .delete{
     color: var(--button);
-    font-size: 30px;
+    font-size: 24px;
 }
-.task__card{
-    background: white;
-    border-radius: 8px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    /* width: 100%; */
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+.delete:hover{
     cursor: pointer;
-    transform: scale(1, 1);
-    transition: transform 0.5s ease;
 }
-.task__card:hover{
+
+div > .valueInput{
+    width: 320px;
+    /* cursor: pointer; */
+    /* transform: scale(1, 1); */
+    /* transition: transform 0.5s ease; */
+}
+/* div > .valueInput:hover{
     transform: scale(1.1,1.1)
+} */
+div > .valueInput:focus{
+    box-shadow: none;
 }
 
 h6{
@@ -53,9 +51,20 @@ h6{
     height: 30px;
     border-radius: 4px;
 }
-form > .form-control:focus{
+form > div > .form-control:focus{
     box-shadow: none;
 }
 .modalBody{
     border-radius: 14px;
+}
+.taskCard{
+    background: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    margin-bottom: 10vh;
 }
